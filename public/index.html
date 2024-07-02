@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Transaksi</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h2>Tambah Transaksi</h2>
+    <form action="proses_tambah.php" method="post">
+        <label for="kode_pemesanan">Kode Pemesanan:</label>
+        <input type="text" id="kode_pemesanan" name="kode_pemesanan" required><br><br>
+        
+        <label for="tujuan">Tujuan:</label>
+        <input type="text" id="tujuan" name="tujuan" required><br><br>
+        
+        <label for="penumpang">Penumpang:</label>
+        <input type="text" id="penumpang" name="penumpang" required><br><br>
+        
+        <label for="tanggal_berangkat">Tanggal Berangkat:</label>
+        <input type="date" id="tanggal_berangkat" name="tanggal_berangkat" required><br><br>
+        
+        <label for="action">Action:</label>
+        <input type="text" id="action" name="action" required><br><br>
+        
+        <input type="submit" value="Tambah Transaksi">
+    </form>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
